@@ -14,11 +14,11 @@ public class Availability {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private LocalDate date; // Date of availability
-    private LocalTime startTime; // Start time of availability
-    private LocalTime endTime; // End time of availability
+    private LocalDate date;
+    private LocalTime startTime;
+    private LocalTime endTime;
 
     @ManyToOne
     @JoinColumn(name = "mentor_id", nullable = false)
-    private Mentor mentor; // Link to the Mentor entity
+    private Mentor mentor;
 }
