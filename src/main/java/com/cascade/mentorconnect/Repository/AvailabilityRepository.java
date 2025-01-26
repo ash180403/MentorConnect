@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AvailabilityRepository extends JpaRepository<Availability, Long> {
-    List<Availability> findByMentorId(Long mentorId);
+    List<Availability> findByMentor_Id(Long mentorId);
+//    Availability addAvailability(Long mentorId, Availability availability);
 }
