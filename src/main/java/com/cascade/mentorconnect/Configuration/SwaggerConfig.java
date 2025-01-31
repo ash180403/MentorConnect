@@ -18,7 +18,7 @@ public class SwaggerConfig {
                         .version("1.0.0")  
                         .description("API documentation for MentorConnect platform")
                         .contact(new Contact()
-//                                .name("Sparkids Team")
+                               .name("Team Cascade")
                                 .email("support@mentorsconnect.com")
                                 .url("https://www.mentors.com.com")) 
                 );
