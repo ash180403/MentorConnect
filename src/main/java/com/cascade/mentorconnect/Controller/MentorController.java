@@ -18,7 +18,7 @@ import com.cascade.mentorconnect.Service.MentorService;
 
 @RestController
 @RequestMapping("/api/mentors")
-@Tag(name = "Mentor Management", description = "APIs for managing mentors")
+// @Tag(name = "Mentor Management", description = "APIs for managing mentors")
 public class MentorController {
     @Autowired
     private MentorService mentorService;
