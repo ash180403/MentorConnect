@@ -20,7 +20,6 @@ public class Availability {
     @JoinColumn(name = "mentor_id", nullable = false)
     private Mentor mentor;
 
-    // Getters and Setters
 
     public Long getId() {
         return id;
