@@ -24,7 +24,6 @@ public class Mentor {
     @OneToMany(mappedBy = "mentor", cascade = CascadeType.ALL)
     private List<Availability> availabilities;
 
-    // Getters and Setters
 
     public Long getId() {
         return id;
